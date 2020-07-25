@@ -17,7 +17,7 @@ $language = array(
 	// Spam
 	'spam' => 'Spam',
 	'mark_as_spam' => 'Zaznacz jako Spam',
-	'confirm_spam' => '<p>Czy jesteś pewny że chcesz zaznaczyć tego użytkownika jako spammer?</p><p>Zostanie on zbanowany na IP a cała zawartość umieszczona przez niego usunięta.</p>',
+	'confirm_spam' => '<p>Czy jesteś pewny, że chcesz zaznaczyć tego użytkownika jako spammer?</p><p>Zostanie on zbanowany na IP, a cała zawartość umieszczona przez niego usunięta.</p>',
 	'user_marked_as_spam' => 'Użytkownik został zaznaczony jako spammmer.',
 	'cant_ban_admin' => 'Nie możesz zbanować administratora!',
 
