@@ -35,7 +35,7 @@ $language = array(
 	'alerts' => 'Powiadomienia',
 	'delete_all' => 'Usuń wszystko',
 	'private_profile' => 'Prywatny profil',
-	'gif_avatar' => 'Upload .gif as custom avatar',
+	'gif_avatar' => 'Wgraj .gif jako awatar',
 
 	// Profile settings
 	'field_is_required' => 'Pole {x} jest wymagane.', // Don't replace {x}
@@ -128,7 +128,7 @@ $language = array(
 	'verification_failed' => 'Weryfikacja nie powiodła się. Spróbuj ponownie później.',
 	'verification_success' => 'Pomyślnie zweryfikowano konto minecraft.',
 	'authme_username_exists' => 'Twoje konto na serwerze jest już połączone ze stroną!',
-	'uuid_already_exists' => 'Twoje UUIC już istnieje. Oznacza to, że to konto minecrft jest już zarejestrowane.',
+	'uuid_already_exists' => 'Twoje UUID już istnieje. Oznacza to, że to konto minecrft jest już zarejestrowane.',
 
 	// Login
 	'successful_login' => 'Zostałeś zalogowany.',
@@ -219,8 +219,8 @@ $language = array(
 	'confirm_leave' => 'Jesteś pewny że chcesz opuścić tą konwersację?',
 	'one_or_more_users_blocked' => 'Nie możesz wysyłać prywatnych wiadomości do co najmniej jednego członka rozmowy. (Jest on zablokowany)',
 	'messages' => 'Wiadomości',
-	'latest_profile_posts' => 'Latest Profile Posts',
-	'no_profile_posts' => 'No profile posts.',
+	'latest_profile_posts' => 'Najnowsze Posty Profilowe',
+	'no_profile_posts' => 'Brak postów profilowych.',
 	
 	/*
 	 *  Infractions area
@@ -235,18 +235,18 @@ $language = array(
 	'user_x_has_registered' => '{x} dołączył do ' . SITE_NAME . '!',
 
 	// Discord
-	'discord_link' => 'Discord Link',
-	'linked' => 'Linked',
-	'not_linked' => 'Not Linked',
+	'discord_link' => 'Integracja Discord',
+	'linked' => 'Podłączono',
+	'not_linked' => 'Niepodłączono',
 	'discord_id' => 'Discord User ID',
-	'discord_id_unlinked' => 'Successfully unlinked your Discord User ID.',
-	'discord_id_confirm' => 'Please send a private message containing only your username to "Nameless Link#0761" to confirm your Discord User ID.',
-	'pending_link' => 'Pending',
-	'discord_id_taken' => 'That Discord User ID has already been taken.',
-	'discord_invalid_id' => 'That Discord User ID is invalid.',
-	'discord_already_pending' => 'You already have a pending verification.',
-	'discord_database_error' => 'The Nameless Link database is currently down. Please try again later.',
-	'discord_communication_error' => 'There was an error while communicating with the Discord Bot. Please ensure the bot is running and your Bot URL is correct.',
-	'discord_unknown_error' => 'There was an unknown error while syncing Discord roles. Please contact an administrator.',
-	'discord_id_help' => 'For information on where to find Discord ID\'s, please read <a href="https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-" target="_blank">this.</a>'
+	'discord_id_unlinked' => 'Odłączono z Discorda.',
+	'discord_id_confirm' => 'Wyślij wiadomość prywatną do "Nameless Link#0761" aby potwierdzić konto Discord.',
+	'pending_link' => 'W trakcie',
+	'discord_id_taken' => 'To konto jest podłączone do innego profilu.',
+	'discord_invalid_id' => 'Nieprawidłowe ID Discord.',
+	'discord_already_pending' => 'Twoja weryfikacja już jest w trakcie.',
+	'discord_database_error' => 'Baza Danych jest niedostępna, proszę spróbować później.',
+	'discord_communication_error' => 'Problem z botem. Zgłoś to administracji.',
+	'discord_unknown_error' => 'Wystąpił błąd, skontaktuj się z administratorem..',
+	'discord_id_help' => 'Po więcej informacji przeczytaj <a href="https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-" target="_blank">.</a>'
 );
